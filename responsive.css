@@ -1,0 +1,69 @@
+@media screen and (max-width:769px){
+    
+    header{
+         display: none;
+    }
+    nav{
+         display: flex;
+         justify-content: space-between;
+    }
+    .first-col-item{
+         padding: 0px 10px;
+    }
+    .sec-col-item{
+         display: none;
+    }
+    .third-col-item{
+        display: none;
+    }
+    .humburger{
+         display: block;
+         padding: 0px 10px;
+    }
+    .about-col-first{
+         width: 95%;
+         text-align: center;
+    }
+    .about-col-sec{
+         width: 100%;
+         padding: 0px 10px;
+    }
+    .course-cols{
+         padding: 0px 10px;
+    }
+    .course-col-first{
+           width: 100%;
+           
+    }
+    .Gallery-cols{
+        display: block;
+        padding: 10px 0px;
+        align-items: center;
+  }
+    .Gallery-col-first,.Gallery-col-sec,.Gallery-col-third{
+        width: 100%;
+        padding: 0px 10px;
+  
+  }
+  .contact-cols{
+     display: block;
+     text-align: center;
+  }
+  .contact-form-input{
+     display: block;
+   
+  }
+  .contact-form-input input{
+    margin: 20px 0px;
+  }
+  .contact-form-input-sec input, .contact-form-text-area textarea{
+     width: 100%;
+     margin: 40px 0px;
+  }
+  .contact-map{
+     padding: 0px 10px;
+     width: 100%;
+     
+  }
+  
+}

@@ -1,0 +1,322 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 10px 0px;
+      background-color: skyblue;
+      color: rgb(23, 14, 14);
+}
+.upper-nav-col-first h3 i{
+    padding: 0px 5px;
+}
+.upper-nav-col-first span{
+padding: 0px 10px;
+}
+.upper-nav-col-sec i{
+   padding: 0px 10px;
+   font-size: 1.4rem;
+}
+
+nav{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     background-color: white;
+     padding: 10px 0px;
+     align-items: center;
+}
+.first-col-item a{
+   font-size: 2rem;
+   text-decoration: none;
+   color: orange;
+   font-weight: bold;
+}
+.sec-col-item a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: orange;
+    padding: 0px 17px;
+ }
+
+.humburger{
+     display: none;
+}
+
+.bg-main{
+       background-image: url(imges/676a6d24-eeab-41ce-9506-238ebc614ca7.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: auto;
+       width: 100%;
+       
+}
+.background-pic{
+     /* min-height: 600px; */
+     height: auto;
+     text-align: center;
+     
+}
+.background-pic h2{
+         padding: 15% 0%;
+         font-size: 3rem;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color: orange;
+         font-weight: bold;
+         
+
+}
+
+
+.About{
+      padding: 2% 0px;
+}
+.about-heading{
+       padding: 2% 0%;
+       text-align: center;
+}
+
+.about-heading h1{
+     padding: 10px 0px;
+     font-size: 2.5rem;
+     color: orange;
+     font-weight: bold;
+
+}
+.about-heading p{
+     padding: 10px 0px;
+     font-size: 0.9rem;
+     color: rgb(20, 16, 7);
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.about-col{
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       align-items: center;
+}
+.about-col-first{
+       width: 40%;
+}
+.about-col-sec{
+      width: 40%;
+}
+.about-col-sec h2{
+     font-size: 2rem;
+     color: orangered;
+}
+.about-col-sec span{
+      color: black;
+}
+.about-col-sec p{
+       font-size: 1.3rem;
+       padding: 10px 0px;
+       color:brown;
+       font-weight: 300;
+}
+.courses{
+      padding: 2% 0%;
+
+}
+.course-heading{
+      padding: 2% 0%;
+      text-align: center;
+}
+.course-heading h1{
+      padding: 10px 0px;
+      font-size: 2rem;
+      color: orange;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.course-heading p{
+      font-size: 1rem;
+}
+
+
+
+.course-cols{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 0px 64px;
+      flex-wrap: wrap;
+      
+      
+}
+.course-col-first{
+    width: 30%;
+}
+
+.course-col-first-content h2{
+     padding: 6px 0px;
+     color: rgb(78, 53, 8);
+     font-size: 1.7rem;
+}
+.course-col-first-content p{
+     padding: 10px 0px;
+     color:black;
+     font-size: 1.2rem;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.course-col-first-content button{
+     padding: 10px 10px;
+     margin: 10px 0px;
+     background-color: blue;
+     color: white;
+     font-weight: bold;
+     font-size: 1rem;
+}
+
+.Gallery-heading{
+       text-align: center;
+       padding: 2% 0%;
+}
+.Gallery-heading h1{
+     padding: 9px 0px;
+     color: orange;
+     font-size: 2.5rem;
+}
+.Gallery-heading p{
+     font-size: 1.2rem;
+     padding: 5px 0px;
+}
+ 
+.Gallery-cols{
+      display: flex;
+      padding: 10px 90px;
+      align-items: center;
+}
+.Gallery-col-first,.Gallery-col-sec,.Gallery-col-third{
+      width: 33%;
+      padding: 0px 10px;
+
+}
+.Gallery-col-first-img,.Gallery-col-sec-first-img,.Gallery-col-third-first-img{
+     padding: 7px 0px;
+}
+
+.contact{
+      padding: 3% 0%;
+
+}
+.contact-heading {
+      text-align: center;
+}
+.contact-heading h1{
+       padding: 10px 0px;
+       color: orange;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+       font-size: 2rem;
+}
+.contact-heading p{
+      font-size: 1.1rem;
+      padding: 4px 0px;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-cols{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 2% 0%;
+      align-items: center;
+     }
+  .contact-form{
+      width: 100%;
+      padding: 20px 92px;
+      text-align: center;
+     
+
+  }
+     .contact-form-input{
+           padding: 10px 0px;
+           display: flex;
+           
+     }
+     .contact-form-input input{
+          padding: 15px 10px;
+          width: 100%;
+          margin: 0px 20px;
+          border-radius: 10px;
+          border: 1px solid black;
+          
+    }
+    .contact-form-input-sec input{
+     padding: 15px 10px;
+     width: 95%;
+     margin: 40px 20px;
+     border-radius: 10px;
+     border: 1px solid black;
+    }
+    .contact-form-text-area textarea{
+     padding: 15px 10px;
+     width: 95%;
+     height: 100px;
+     margin: 30px 20px;
+     border-radius: 10px;
+     border: 1px solid black;
+    }
+    .contact-form button{
+      text-align: center;
+      padding: 10px 20px;
+      background-color: blue;
+      color: white;
+      font-size: 1.2rem;
+
+      /* display: flex;
+      justify-content: center; */
+    }
+    .contact-map{
+        padding: 0px 100px;
+        width: 100%;
+    }
+    .contact-map iframe{
+        width: 100%;
+        height: 430px;
+    }
+
+    .footer{
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       background-color: rgba(0,0,255,0.6);
+       padding: 2% 0%;
+       color: white;
+       
+    }
+    .footer-col-first,.footer-col-sec,.footer-col-third,.footer-col-four{
+       padding: 2% 6%;
+    }
+    .footer-col-first a,.footer-col-sec a,.footer-col-third a,.footer-col-four a{
+        display: block;
+        padding: 10px 0px;
+        font-size: 1.4rem;
+        list-style: none;
+      text-decoration: none;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .sec-footer{
+       background-color: blueviolet;
+       padding: 10px 0px;
+       text-align: center;
+       font-size: 1.4rem;
+       color: white;
+       font-weight: 300;
+    
+    }
+    .sec-footer span{
+      color: white;
+        font-weight: bold;
+    }
